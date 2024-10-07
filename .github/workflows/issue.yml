@@ -9,4 +9,4 @@ jobs:
   mention-team:
     permissions:
       issues: write
-    uses: book-hub-umsp/bh-infrastructure/.github/workflows/version.yml@master
+    uses: book-hub-umsp/bh-infrastructure/.github/workflows/issue-comment.yml@master
