@@ -1,4 +1,4 @@
-name: CI
+name: NEXT test
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 jobs:
-  main:
+  nx-next:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
