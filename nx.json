@@ -10,9 +10,7 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": [
-      "{workspaceRoot}/.github/workflows/next-test.yml"
-    ]
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/next-test.yml"]
   },
   "plugins": [
     {

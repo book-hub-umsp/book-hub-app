@@ -1,0 +1,1 @@
+npx lint-staged --relative --concurrent false --config .husky/lint-staged.config.js
