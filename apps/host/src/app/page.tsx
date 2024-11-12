@@ -1,6 +1,8 @@
+import { Editor } from '../features'
+
 const Index = () => {
   return (
-    <div>Host page</div>
+    <Editor />
   )
 }
 

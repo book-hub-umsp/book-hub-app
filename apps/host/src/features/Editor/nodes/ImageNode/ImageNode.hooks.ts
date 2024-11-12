@@ -1,0 +1,16 @@
+const imageCache = new Set()
+
+export const useSuspenseImage = (src: string): void => {
+  if (!imageCache.has(src)) {
+    throw new Promise((resolve) => {
+      const img = new Image()
+
+      img.src = src
+
+      img.onload = () => {
+        imageCache.add(src)
+        resolve(null)
+      }
+    })
+  }
+}

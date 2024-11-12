@@ -1,0 +1,22 @@
+.root {
+  min-height: 250px;
+  position: relative;
+  cursor: text;
+}
+
+.editor {
+  resize: none;
+  tab-size: 1;
+  outline: 0;
+  height: 100%;
+}
+
+.placeholder {
+  color: var(--mantine-color-dark-3);
+  position: absolute;
+  top: var(--mantine-spacing-md);
+  left: var(--mantine-spacing-sm);
+  user-select: none;
+  pointer-events: none;
+  text-overflow: ellipsis;
+}
