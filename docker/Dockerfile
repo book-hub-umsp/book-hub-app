@@ -11,7 +11,7 @@ COPY package.json package-lock.json ./
 COPY ./nx.json ./nx.json
 COPY ./jest.preset.js ./jest.preset.js
 COPY ./apps/host ./apps/host
-# COPY ./libs ./libs
+COPY ./libs ./libs
 COPY ./tsconfig.base.json ./
 
 # Устанавливаем зависимости
