@@ -7,7 +7,8 @@
       ".nx",
       ".next",
       "**/*.d.ts",
-      "**/module-federation.config.js"
+      "**/module-federation.config.js",
+      ".gitignore"
     ]
   },
   "formatter": {
