@@ -26,7 +26,7 @@ const RootLayout: NextPage<RootLayoutProps> = ({ children }) => {
                 width: 300,
                 breakpoint: 'sm',
               }}
-              padding="md"
+              padding="lg"
             >
               <AppShell.Header>
                 <AppHeader />

@@ -1,0 +1,13 @@
+.root {
+  width: 100%;
+  max-width: 1456px;
+}
+
+.filters {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.books {
+  flex: 1;
+}
