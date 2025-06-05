@@ -16,7 +16,7 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node", "@nx/react/typings/cssmodule.d.ts"]
   },
   "include": [
     "**/*.ts",
